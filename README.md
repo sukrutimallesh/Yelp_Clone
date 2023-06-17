@@ -1,2 +1,2 @@
 # Yelp_Clone
-# Tech Stack - Pern Stack
+Tech Stack - Pern Stack
