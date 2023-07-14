@@ -17,6 +17,8 @@ const morgan = require("morgan");
 const app = express();
 
 app.use(cors());
+// Parse JSON bodies
+// this is a middleware as well 
 app.use(express.json());
 
 //Creating a middleware, if used properly a middleware can reduce the code.
