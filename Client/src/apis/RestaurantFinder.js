@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:3001/api/v1/restaurants"
+  baseURL: process.env.REACT_APP_API_URL || "/api/restaurants"
 });
 
 export default instance;
