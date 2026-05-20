@@ -1,7 +1,7 @@
 {
   "version": 2,
   "builds": [
-    { "src": "Client/package.json", "use": "@vercel/static-build", "config": { "distDir": "build" } },
+    { "src": "Client/package.json", "use": "@vercel/static-build", "config": { "distDir": "build", "buildCommand": "CI=false npm run build" } },
     { "src": "api/**/*.js", "use": "@vercel/node" }
   ],
   "routes": [
